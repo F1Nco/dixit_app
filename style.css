@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+}
+
+.main {
+    max-width: 390px;
+}
+
+.start {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(92, 138, 199);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: lowercase;
+}
