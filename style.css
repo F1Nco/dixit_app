@@ -1,20 +1,41 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main {
+    flex-direction: column;
     max-width: 390px;
+    max-height: 650px;
 }
 
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 .start {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     border: none;
     background: rgb(92, 138, 199);
     border-radius: 10px;
     color: #fff;
     text-transform: lowercase;
+    
+    transition: background .2s linear;
+}
+
+.start:hover {
+    background: darkcyan;
 }
